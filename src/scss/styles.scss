@@ -1,0 +1,48 @@
+// Import all of Bootstrap's CSS
+@import "bootstrap/scss/bootstrap";
+.accordion-button{
+    color: #6659B8;
+    &:focus{
+        box-shadow: none;
+    }
+}
+.accordion-body {
+    border-left: 5px solid #6659B8;
+}
+.textColor{
+    color:#251876;
+}
+.bgColor{
+    background-color: #251876 ;
+}
+p{
+    font-size: 1.15rem;
+}
+.my-slider{
+    width: 600xp;
+}
+.avatarImg{
+    width: 50px;
+    height: 50px;
+    img{
+        border-radius:50%;
+        max-height: 50px;
+        
+    }
+}
+.avatarName{
+    color:#251876;
+}
+.card-text{
+    display: -webkit-box;
+    -webkit-line-clamp: 10;
+    -webkit-box-orient: vertical;  
+    overflow: hidden;
+}
+.BsScrollspy{
+    margin-top: 40px;
+}
+.offcanvas{
+    bottom: auto;
+    background-color: #251876 !important;
+}
