@@ -5,7 +5,7 @@ export default {
   //publicDir :true,
   base :'/my-tocproject/',
   build: {
-    outDir: '../dist'
+    outDir: './dist'
   },
   server: {
     port: 8080
